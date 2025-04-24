@@ -25,32 +25,21 @@ A full-stack travel journaling application built with the MERN stack (MongoDB, E
 
 ### 1. Clone the repository
 
-git clone https://github.com/charan819/tarvel-journal-app.git
-cd tarvel-journal-app
+git clone https://github.com/charan819/tarvel-journal-app.git then cd tarvel-journal-app
 
- Backend Setup
-cd backend
-npm install
+Backend Setup : cd backend, npm install
 
 Create a .env file in backend with:
 
-MONGO_URL=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-PORT= port_nuumber
+MONGO_URL=your_mongo_connection_string && JWT_SECRET=your_jwt_secret && PORT= port_nuumber
 
 Start the server : node index.js
 
 
-Frontend Setup
-
-cd ../client
-npm install
+Frontend Setup : cd ../client then npm install
 
 Create a .env file in client with:
 
 REACT_APP_CLOUD_NAME=your_cloudinary_cloud_name
 
-Start the React app:
-
-npm start
-Now visit http://localhost:3000
+Start the React app: npm start then visit http://localhost:3000
